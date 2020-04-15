@@ -1,4 +1,6 @@
-﻿$DomainName = Read-Host -Prompt "domain" #domain name
+﻿#Access Control List PowerShell Script
+#20200414.01
+$DomainName = Read-Host -Prompt "domain" #domain name
 $UserName = Read-Host -Prompt "username" #user with rights
 $OpenDrive = Read-Host -Prompt "open drive letter (letter only)" #drive letter only that is available in system
 $RootPath = Read-Host -Prompt "network path (\\server\share)"  #define path to the shared folder
